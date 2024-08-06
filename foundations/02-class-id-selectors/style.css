@@ -1,0 +1,18 @@
+.odd-ones {
+    background-color: rgb(255, 166, 166);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#second-one {
+    color: rgb(24, 24, 255);
+    font-size: 36px;
+}
+
+.larger {
+    font-size: 24px;
+}
+
+#unique {
+    background-color: rgb(139, 255, 139);
+    font-weight: bold;
+}
