@@ -27,3 +27,68 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* ALI'S */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: 1000;
+  padding: 16px;
+  font-size: 32px;
+  height: max-content;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.card-container {
+  padding: 55px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 16px;
+  width: 350px;
+  /* height: 350px; */
+  background-color: white;
+  flex: 1 1 auto;
+}
+
+.sidebar {
+  width: 250px;
+  flex-shrink: 0; 
+  flex: 1 0 auto;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 15px;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
